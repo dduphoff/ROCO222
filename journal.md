@@ -5,15 +5,17 @@ A brushed DC motor works by using the current in a coil of wire. The brushes sup
 ### Building a brushed DC motor
 
 We first attached the pins onto the wooden base with some screws and washers to keep the pins in place. We arranged the pins in a square as can be seen fig.1.
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/seafc.jpg) fig. 1
+
 For the armature we used a cork. We put 1 nail into each side. Made 2 commutators from copper wire. And spun 52 coils of enameled copper wire around it. In the end it looked like fig.2 
 
-![alt text](https://github.com/dduphoff/ROCO222/blob/master/ertvecrtr.jpg)
-![alt text](https://github.com/dduphoff/ROCO222/blob/master/ertbhervht.jpg)
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/ertvecrtr.jpg) fig. 2
+
 
 
 Next we mount the armature and the magnets at the end it should look like fig. 3
 
-
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/ertbhervht.jpg) fig. 3
 
 
 
@@ -25,21 +27,14 @@ The final product looked like fig. 4.
 
 
 
-
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/rebh6bft.jpg) fig. 4
 
 
  
 
 
 
-107 turns of wire  
-
-
-
-
-
-
-
+  
 
 
 
@@ -76,17 +71,18 @@ today i changed the design for the brush mounts and the bearing holder.
 they will be fitted together like a puzzle.
 
  
-
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/drgcv.jpg)
 This piece has a rounded top and a hole in the middle (22mm diameter)  to mount an abec-9 ball bearing. these has an outer diameter of 22mm and an inner diameter of 8mm. i will have 2 of these pieces with one ball bearing in each. the wings on the side are to fit them with the brush mounts. they are 5mm x 40mm.
 
  
-
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/eehetyjbyu.jpg)
 this is the brush/ magnet mount. it is 18cm long and 7cm high it has little locks on the aside to ensure a perfect fit with the bearing mount. holes will be drilled in it to hold the brushes.
 
- 
+ ![alt text](https://github.com/dduphoff/ROCO222/blob/master/hth6rv46v.jpg)
 this piece is used to split up the wires and ensure they have an even distribution. it is a 60 degree wedge of a circle with a diameter smaller than that of the cork. 
 
  
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/rtvhrthcd.jpg)
 
 the last piece. 
 this is to mount on top of the wire splitters to ensure that the bar can be mounted to the rotor.
@@ -99,13 +95,11 @@ for the brushes i will use some wooden bits layered in copper tape. they will be
 
 An incremental encoder is made up of a IR photosensor and an infrared LED. An encoder disk is attached to the motor. Every time the disk leaves space the circuit detects light passing through the disk. Knowing how the disk is laid out the rate of rotation of the motor can be measured and even controlled.
 
-To wire up the circuit we need an infrared LED, a infrared photodetector, 10k and 100k resistors, a supply wire a ground wire and a signal wire. The LED and transistor must be facing each other with enough space for the disk to comfortably fit in-between the two. The final product looked like fig. 1.
+To wire up the circuit we need an infrared LED, a infrared photodetector, 10k and 100k resistors, a supply wire a ground wire and a signal wire. The LED and transistor must be facing each other with enough space for the disk to comfortably fit in-between the two.
 
 
 
-
-
-We are going to be using a disk with one wedge cut out of it like in fig. 2. This means that every time the IR light is detected we can count one rotation. It is going to be cut out of cardboard and mounted onto the motor using glue tack.
+We are going to be using a disk with one wedge cut out of it. This means that every time the IR light is detected we can count one rotation. It is going to be cut out of cardboard and mounted onto the motor using glue tack.
 
 
 
@@ -113,7 +107,7 @@ We are going to be using a disk with one wedge cut out of it like in fig. 2. Thi
 We mounted the motor to the desk and held the incremental encoder so that it would detect the wedge cut out from the encoder disk. 
 
 
-
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/24726887_10214949324391123_1632369383_n.jpg)
 
 
 
@@ -445,8 +439,8 @@ When testing the torque of the motor with my fingers it was clear that in full s
 
 ### Servo motors ### 
 
-Made a makeshift arm out of carboard and mounted the servos. Wired it up to a potentiometer and used the knob function to control the servo. 
-
+Made a makeshift arm out of cardboard and mounted the servos. Wired it up to a potentiometer and used the knob function to control the servo. 
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/24891524_10214965895645394_2138005197_n.jpg)
 
 ##### I then wrote a code that used 2 potentiometers and 2 servos :
 
@@ -475,3 +469,12 @@ void loop() {
   
 
 
+i then went into solidworks to get some designing done for a better robot arm with 2 degrees of freedom
+it looked like this:
+
+![alt text](https://github.com/dduphoff/ROCO222/blob/master/nmib.jpg)
+
+when i assembled my arm it looked like this
+
+
+https://youtu.be/T8CKWnWQNMo
